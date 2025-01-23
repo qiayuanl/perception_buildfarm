@@ -1,0 +1,36 @@
+Package: ros-humble-livox-ros-driver2-dbgsym
+Package-Type: ddeb
+Architecture: amd64
+Version: 0-2025.01.23.20.58
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: ros-humble-livox-ros-driver2
+Maintainer: feng <dev@livoxtech.com>
+Installed-Size: 10415
+Depends: ros-humble-livox-ros-driver2 (= 0-2025.01.23.20.58)
+Filename: ./ros-humble-livox-ros-driver2-dbgsym_0-2025.01.23.20.58_amd64.ddeb
+Size: 9862630
+MD5sum: 6fd97a3a1c7d9d03e8b8b91e2b6fe829
+SHA1: 1d5f3859842d3e6b0793dad3a38872f197e3e282
+SHA256: e13dd83f24b5aa722c0ecb76c86de18058446161b132eb626b870bd9e3b34d54
+SHA512: 279515fa0b8e46efd789b8c798aa909c706a20c6b654a75672bd6f7f0abff25783841914c277a5d18de605c4d63ab791a4cf6f7a46d1e93e18d2b0372d3293bc
+Description: debug symbols for ros-humble-livox-ros-driver2
+Build-Ids: 07b90c9c718ee626c95a7b3806064701923d5152 2d0b2e080ca36fdccf9e442d9ec2910dc895e00a 310d0595b894d2f43d7181909bf5f443e25a21e8 3b2e45e6e64e7682fe1c578c7675f32886c100e5 42825c182b22ba7b22d76594c222746d64a9f9be 45473b06281f7a3e204d7182b2b7a3078dc47236 7e4e79e56bf0b880025b8fc222c3e3ef57379e3e 880e0968d8a9a177457dbbbb6a2a11bc10e5f2cd 90ee82e636e9deacd0764366d8456a080c031a6a 9eddc65fd78dc759d4d1e7dc809eca216202ecbf d064a3d1dd56307aeafc3be55dd30fb9af42af62 d2420e7e811f960f32c20ddc7e19c186ca9add82 f57feed81c9f8d9a279e2cf1a1ab2fd579f73d30 fe3e4f0a5bd50f06f6902e64a4af401e19f78dc0
+
+Package: ros-humble-livox-ros-driver2
+Architecture: amd64
+Version: 0-2025.01.23.20.58
+Priority: optional
+Section: misc
+Maintainer: feng <dev@livoxtech.com>
+Installed-Size: 6761
+Depends: libc6 (>= 2.34), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpython3.10 (>= 3.10.0), libstdc++6 (>= 12), ros-humble-fastcdr, git, libapr1-dev, libaprutil1-dev, libpcl-dev, ros-humble-pcl-conversions, ros-humble-rcl-interfaces, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rcutils, ros-humble-rosbag2, ros-humble-rosidl-default-runtime, ros-humble-sensor-msgs, ros-humble-std-msgs
+Filename: ./ros-humble-livox-ros-driver2_0-2025.01.23.20.58_amd64.deb
+Size: 748486
+MD5sum: 4c0f74ff600118a6c543df562f7e88b4
+SHA1: 3822b9d54b39178dc3811114bff5bbbc1c674458
+SHA256: fe6e33b3a7f13bdd6e98c60bd74aa7ebad194f48f3f911bfb035c31eb519d59a
+SHA512: c7632089845e9e8ad9d6ade3e2b705e428226520a53cc59c2741923449e7043eb5a01b4034d85b13760e59a3ef6401995ea4d4d9f09e126cd108d807454083dc
+Description: The ROS device driver for Livox 3D LiDARs, for ROS2
+

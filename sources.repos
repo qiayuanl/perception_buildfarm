@@ -1,0 +1,5 @@
+repositories:
+  livox_ros_driver2:
+    type: git
+    url: https://github.com/qiayuanl/livox_ros_driver2
+    version: d00bf168fb2ca84269b3fd106c841aa150cd4346
